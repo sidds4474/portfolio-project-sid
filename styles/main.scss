@@ -1,0 +1,50 @@
+// Pages
+@import './index';
+
+@import './newPage.css';
+
+// Components
+@import './header';
+
+@import './project';
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', 'Helvetica' !important;
+}
+.self-typed {
+  font-size: 35px;
+  background: -webkit-linear-gradient(rgb(221, 226, 214), rgb(233, 176, 176));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.absolute {
+  position: absolute;
+}
+.base-page {
+  padding-top: 120px;
+  color: rebeccapurple;
+}
+.clickable {
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  font-size: 18px;
+}
+.clickable:hover, .clickable:focus {
+  color: yellow;
+}

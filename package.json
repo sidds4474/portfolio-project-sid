@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^0.11.0",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "cross-env": "^7.0.3",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.17.1",
+    "express-openid-connect": "^2.1.0",
+    "framer-motion": "^3.1.1",
+    "next": "10.0.3",
+    "next-routes": "^1.4.2",
+    "react": "17.0.1",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.13.1",
+    "react-typed": "^1.2.0",
+    "reactstrap": "^8.7.1",
+    "sass": "^1.30.0",
+    "save": "^2.4.0",
+    "scss": "^0.2.4"
+  }
+}
